@@ -45,7 +45,8 @@ body{
 }
 
 .color1{
-    color:#14213d;
+    color: white;
+    text-shadow: 2px 2px #111;
 }
 
 .bg-color1{
@@ -83,4 +84,30 @@ body{
 #redes > a {
     color: white;
     text-decoration: none;
+}
+
+.carousel-caption > p{
+    text-shadow: 2px 2px #111;
+}
+
+.carousel-caption > h4{
+    text-shadow: 2px 2px #111;    
+}
+
+section{
+    color: white;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(93,40,40,1) 0%, rgba(54,115,126,1) 98%, rgba(105,122,125,1) 100%);
+}
+
+body{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(93,40,40,1) 0%, rgba(54,115,126,1) 98%, rgba(105,122,125,1) 100%);
+}
+
+h2, h1{
+    color: white;
+    text-shadow: 2px 2px #111;
+}
+
+p.text-danger{
+    text-shadow: 2px 2px #111;
 }
